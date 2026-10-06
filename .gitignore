@@ -1,0 +1,20 @@
+__pycache__/
+.pytest_cache/
+# All account-specific exports, plans, generated catalogs, and backups.
+/data/
+# Legacy root-level artifacts are ignored in case a user upgrades an older clone.
+backups/
+category-plan.json
+category-descriptions.json
+list-visibility.json
+starred-repos.csv
+categorized-stars.csv
+categorized-stars.txt
+categorization-audit.json
+starred-metadata.json
+uncategorized-repos.json
+github-lists-before.json
+github-lists-after.json
+last-sync.json
+github-apply-log.json
+*.tmp
